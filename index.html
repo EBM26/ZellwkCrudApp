@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Node App</title>
+</head>
+<style>
+	*{text-decoration: none; max-width: 100%; margin: 0; padding: 0;}
+	html,body{margin: 0; padding: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color: #191919;}
+	img{border: none;}
+	li{list-style-type: none;}
+	div{display: block; margin: 0; padding: 0;}
+	u{text-decoration: underline;}
+	s{text-decoration: line-through;}
+	i{font-style: italic;}
+	b{font-weight: bold;}
+	a:link, a:visited, a:active{text-decoration: none; color: inherit;}
+	.Fright{float: right;}
+	.Fleft{float: left;}
+	.clear{clear: both;}
+	.container{width: 1100px; margin: auto;}
+	.align-left{text-align: left;}
+	.inline{display: inline;}
+	.inline-block{display: inline-block;}
+	.uppercase{text-transform: uppercase;}
+	.center{text-align: center;}
+	.relative{position: relative;}
+	.hidden{display: none;}
+	.padmobile{padding: 0 15px;}
+	.white{color: #fff;}
+	.martop100{margin-top: 100px;}
+	.martop40{margin-top: 40px;}
+	input{width: 25%; margin-right: 20px; padding: 3px 10px; font-size: 17px; border: 1px solid #000; border-radius: 3px;}
+	input:focus{outline: none;}
+	button{width: 25%; background: lightblue; border: 1px solid gold; text-align: center; padding: 3px; 
+			font-size: 18px; color: white; border-radius: 3px; letter-spacing: 1.5px;}
+</style>
+<body>
+	<div class="container martop100">
+		<h1 class="center">This Node App is working just fine! And so is Nodemon, man!</h1>
+		<form action="/quotes" method="POST" class="center martop40">
+			<input type="text" placeholder="name" name="name">
+			<input type="text" placeholder="quote" name="quote">
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
